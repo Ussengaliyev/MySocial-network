@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {addPost} from './redux/state';
+import {addPost, updateNewPostText} from './redux/state';
 
 
 export let rerenderEntireTree = (state) => {
@@ -14,7 +14,9 @@ root.render(
     posts = {state.profilePage.posts}
     dialogs = {state.dialogsPage.dialogs} 
     messages = {state.dialogsPage.messages}
-    addPost = {addPost}/>
+    addPost = {addPost}
+    updateNewPostText = {updateNewPostText}
+    newPostText = {state.profilePage.newPostText}/>
     
   </React.StrictMode>
 );
