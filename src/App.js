@@ -9,7 +9,6 @@ import News from './components/Navbar/Navbar';
 import Music from './components/Navbar/Navbar';
 import Settings from './components/Navbar/Navbar';
 
-
 const App = (props) => {
   return (
     <BrowserRouter>
@@ -18,7 +17,7 @@ const App = (props) => {
         <Navbar />
         <div className='app-wrapper-content'>
         <Routes>
-          <Route exact path = '/profile' element ={ <Profile 
+          <Route path = '/profile' element ={ <Profile 
           posts = {props.posts}
           addPost = {props.addPost}
           updateNewPostText = {props.updateNewPostText}
