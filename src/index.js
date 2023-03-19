@@ -14,8 +14,10 @@ let rerenderEntireTree = (state) => {
     posts = {store.getState().profilePage.posts}
     dialogs = {store.getState().dialogsPage.dialogs} 
     messages = {store.getState().dialogsPage.messages}
-    dispatch= {store.dispatch.bind(store)}
-    newPostText = {store.getState().profilePage.newPostText}/>
+    dispatch = {store.dispatch.bind(store)}
+    newPostText = {store.getState().profilePage.newPostText}
+    store = {store}
+    />
   </React.StrictMode>
 );
 }
