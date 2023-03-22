@@ -14,6 +14,3 @@ let store = createStore(reducers);
 export default store;
 
 
-
-//1) 1) import {combineReducers, legacy_createStore as createStore} from "redux"; 
-// 2) Если у вас белый экран, не волнуйтесь. Проделайте все то, что сделал Димыч, под конец видео ошибка исправится
