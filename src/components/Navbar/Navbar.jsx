@@ -6,10 +6,13 @@ console.log(s);
 const Navbar = () => {
   return (<nav className={s.nav}>
     <div className={s.item}>
-      <NavLink to = '/profile' >Profile</NavLink>
+      <NavLink to = '/profile'>Profile</NavLink>
     </div>
     <div className={s.active}>
       <NavLink to = '/dialogs'>Messages</NavLink>
+    </div>
+    <div className={s.active}>
+      <NavLink to = '/users'>Users</NavLink>
     </div>
     <div className={s.item}>
       <NavLink to = '/news'>News</NavLink>
