@@ -36,14 +36,6 @@ class UsersContainer extends React.Component {
         }
     }
 
-// return <Users
-//               onPageChanged = {this.onPageChanged}
-// ...
-// добавил  bind()
-//      onPageChanged = {this.onPageChanged.bind(this)}
-// и тогда всё заработало.
-
-
 let mapStateToProps = (state) => {
     return {
         users: state.usersPage.users,
