@@ -6,7 +6,7 @@ const ProfileInfo = () => {
   return ( 
 <div>
     <div>
-      <img src='https://w0.peakpx.com/wallpaper/830/235/HD-wallpaper-anime-jujutsu-kaisen-blue-eyes-boy-satoru-gojo-white-hair.jpg' />
+      <img src='https://img1.badfon.ru/wallpaper/big/3/47/art-yoneyu-anime-naruto.jpg' />
     </div >
     <div className = {s.descriptionBlock}>
     ava + decription

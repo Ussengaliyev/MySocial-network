@@ -5,7 +5,7 @@ const Post = (props) => {
   return (
 
     <div className={s.item}>
-      <img src='https://sun9-41.userapi.com/impg/Xlej1YvdhmD4KLf4D2z4poyuWS0N-Jquswx09A/WeXvkRr0F1A.jpg?size=567x604&quality=96&sign=e903a2d0c302dc3be9c4ef73d7cbcea7&type=album' />
+      <img src='https://img.quizur.com/f/img61c4bc261c4200.12679417.jpg?lastEdited=1640283179' />
       {props.message}
       <div>
         <span>♥</span> {props.likesCount}
