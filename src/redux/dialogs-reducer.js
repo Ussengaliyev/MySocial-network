@@ -2,20 +2,20 @@ const SEND_MESSAGE = 'SEND_MESSAGE';
 
 let initialState = {
     dialogs: [
-        {id: 1, name: 'Suneiya'}, 
-        {id: 2, name: 'Suneiya'},
-        {id: 3, name: 'Suneiya'},
-        {id: 4, name: 'Suneiya'},
-        {id: 5, name: 'Suneiya'},
-        {id: 6, name: 'Suneiya'}
+        {id: 1, name: 'Eldan'}, 
+        {id: 2, name: 'Eldan'},
+        {id: 3, name: 'Eldan'},
+        {id: 4, name: 'Eldan'},
+        {id: 5, name: 'Eldan'},
+        {id: 6, name: 'Eldan'}
       ],
     messages: [
-        {id: 1, message: 'здравствуйте'}, 
-        {id: 2, message: 'я норм человек'},
-        {id: 3, message: 'Мне никогда не стыдно'},
-        {id: 4, message: 'я не бываю грубой'},
-        {id: 5, message: 'я никогда не облажаюсь'},
-        {id: 6, message: 'я девочка'}
+        {id: 1, message: 'учись'}, 
+        {id: 2, message: 'учись'},
+        {id: 3, message: 'учись'},
+        {id: 4, message: 'учись'},
+        {id: 5, message: 'учись'},
+        {id: 6, message: 'учись'}
   ]
 };
 
