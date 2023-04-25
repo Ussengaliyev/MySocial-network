@@ -3,7 +3,6 @@ import { follow, setCurrentPage, unfollow, toggleFollowingProgress, getUsers } f
 import React from 'react';
 import Users from './Users';
 import Preloader from '../common/Preloader';
-import { usersAPI } from '../../api/api';
 import { withAuthRedirect } from '../../hoc/withAuthRedirect';
 import { compose } from 'redux';
 
@@ -50,6 +49,5 @@ let mapStateToProps = (state) => {
 
 
 export default compose(
-    withAuthRedirect,
     connect(mapStateToProps, {follow, unfollow, setCurrentPage, toggleFollowingProgress, getUsers})
 )(UsersContainer);

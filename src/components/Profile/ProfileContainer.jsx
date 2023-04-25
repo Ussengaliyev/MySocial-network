@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Profile from './Profile';
-import { Navigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { getUserProfile } from '../../redux/profiile-reducer';
-import { withAuthRedirect } from '../../hoc/withAuthRedirect';
 import { compose } from 'redux';
 import { getStatus } from '../../redux/profiile-reducer';
 import { updateStatus } from '../../redux/profiile-reducer';
