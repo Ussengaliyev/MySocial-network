@@ -3,7 +3,6 @@ import { follow, setCurrentPage, unfollow, toggleFollowingProgress, requestUsers
 import React from 'react';
 import Users from './Users';
 import Preloader from '../common/Preloader';
-import { withAuthRedirect } from '../../hoc/withAuthRedirect';
 import { compose } from 'redux';
 import { getCurrentPage, getFollowingInProgress, getIsFetching, getPageSize, getTotalUsersCount, 
     getUsers } from '../../redux/users-selectors';
