@@ -25,7 +25,8 @@ const AddNewPostFrom = (props) => {
 let AddNewPostFromRedux = reduxForm({form: 'ProfileAddNewPostForm'})(AddNewPostFrom);
  
 
-const MyPosts = (props) => {
+const MyPosts = React.memo(props => {
+  console.log('Render')
   let postsElements = props.posts.map (p => <Post message= {p.message} likesCount= {p.likesCount} />);
   
   let newPostElement = React.createRef();
@@ -44,7 +45,7 @@ const MyPosts = (props) => {
       </div>
     </div>
   )
-}
+})
 
 
 
